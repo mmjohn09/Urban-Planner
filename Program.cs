@@ -7,6 +7,7 @@ namespace Planner
     {
         static void Main(string[] args)
         {
+            City Megatropolis = new City();
             Building buildingOne = new Building("123 Oak Street");
 
             buildingOne.Stories = 3;
@@ -14,6 +15,7 @@ namespace Planner
             buildingOne.Depth = 35.4;
             buildingOne.Construct();
             buildingOne.Purchase("Joe Smith");
+            Megatropolis.AddBuilding(buildingOne);
 
             Building buildingTwo = new Building("456 Elm Avenue");
 
@@ -22,6 +24,7 @@ namespace Planner
             buildingTwo.Depth = 64.3;
             buildingTwo.Construct();
             buildingTwo.Purchase("Mary Jones");
+            Megatropolis.AddBuilding(buildingTwo);
 
             Building buildingThree = new Building("789 Maple Boulevard");
 
@@ -30,11 +33,15 @@ namespace Planner
             buildingThree.Depth = 39.5;
             buildingThree.Construct();
             buildingThree.Purchase("Sue Green");
+            Megatropolis.AddBuilding(buildingThree);
 
-            buildingOne.PrintBuilding();
-            buildingTwo.PrintBuilding();
-            buildingThree.PrintBuilding();
+            Megatropolis.PrintCity();
             
+            foreach (Building building in Megatropolis.Buildings)
+            {
+                building.PrintBuilding();
+            }
+
         }
     }
 }
