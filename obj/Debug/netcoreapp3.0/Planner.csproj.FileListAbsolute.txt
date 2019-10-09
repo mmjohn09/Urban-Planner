@@ -1,0 +1,11 @@
+/Users/maggie/workspace/csharp/exercises/planner/bin/Debug/netcoreapp3.0/Planner
+/Users/maggie/workspace/csharp/exercises/planner/bin/Debug/netcoreapp3.0/Planner.deps.json
+/Users/maggie/workspace/csharp/exercises/planner/bin/Debug/netcoreapp3.0/Planner.runtimeconfig.json
+/Users/maggie/workspace/csharp/exercises/planner/bin/Debug/netcoreapp3.0/Planner.runtimeconfig.dev.json
+/Users/maggie/workspace/csharp/exercises/planner/bin/Debug/netcoreapp3.0/Planner.dll
+/Users/maggie/workspace/csharp/exercises/planner/bin/Debug/netcoreapp3.0/Planner.pdb
+/Users/maggie/workspace/csharp/exercises/planner/obj/Debug/netcoreapp3.0/Planner.csprojAssemblyReference.cache
+/Users/maggie/workspace/csharp/exercises/planner/obj/Debug/netcoreapp3.0/Planner.AssemblyInfoInputs.cache
+/Users/maggie/workspace/csharp/exercises/planner/obj/Debug/netcoreapp3.0/Planner.AssemblyInfo.cs
+/Users/maggie/workspace/csharp/exercises/planner/obj/Debug/netcoreapp3.0/Planner.dll
+/Users/maggie/workspace/csharp/exercises/planner/obj/Debug/netcoreapp3.0/Planner.pdb
